@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html data-ng-app="kstro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+
+    <title>Castro Roy</title>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <link rel="stylesheet" href="css/layout.css"/>
+    <link rel="stylesheet" href="css/kstro.css"/>
+</head>
+<body>
+    <header class="affix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h1>Castro Roy</h1>
+                </div>
+                <div class="col-sm-8">
+                    <div data-ng-include="'js/app/layout/menu.html'"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="content" class="container">
+        <div class="row">
+            <div class="col-sm-9 col-sm-offset-3">
+                <div id="main">
+                    <div data-ng-view></div>
+                </div>
+            </div>
+            <div id="user-info" class=" col-sm-3 affix">
+                <div class="user-info-container">
+                    <div class="photo img-thumbnail animated">
+                        <i class="fa fa-user"></i>
+                    </div>
+
+                    <div class="contact">
+                        <div class="contact-info">
+                            <i class="fa fa-envelope"></i><a href="mailto:castro.roy@towersoft.net">castro.roy@towersoft.net</a>
+                        </div>
+                        <div class="contact-info">
+                            <i class="fa fa-github"></i><a href="#">kstro21</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/libs/angular.js"></script>
+    <script type="text/javascript" src="js/libs/angular-route.js"></script>
+    <script type="text/javascript" src="js/app.module.js"></script>
+    <script type="text/javascript" src="js/app/project/project.controller.js"></script>
+    <script type="text/javascript" src="js/app/skill/skill.controller.js"></script>
+</body>
+</html>

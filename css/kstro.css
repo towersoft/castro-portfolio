@@ -1,0 +1,133 @@
+html, body {
+  height: 100%; }
+
+body {
+  padding-top: 68px; }
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  margin: 0.83em 0;
+  font-weight: bold; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none; }
+
+.text-center {
+  text-align: center; }
+
+header {
+  background: #d7d6d8;
+  width: 100%;
+  top: 0;
+  z-index: 2; }
+  header h1 {
+    margin: 0; }
+  header .container {
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  header #main-menu {
+    text-align: right;
+    line-height: 28px; }
+    header #main-menu li {
+      display: inline-block;
+      padding: 0 10px 0 6px;
+      font-size: 16px; }
+
+#user-info {
+  width: 292px; }
+  #user-info .photo {
+    width: 262px;
+    height: 262px;
+    text-align: center;
+    font-size: 12.5em;
+    background: #ededed;
+    color: #fff;
+    margin-bottom: 15px; }
+  #user-info .contact-info {
+    margin-bottom: 10px; }
+    #user-info .contact-info a {
+      margin-left: 10px; }
+
+#content {
+  min-height: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  #content #main {
+    z-index: 1; }
+    #content #main .description p {
+      line-height: 1.3; }
+    #content #main .page > h2 {
+      margin-bottom: 30px; }
+      #content #main .page > h2 i {
+        margin-right: 10px; }
+    #content #main .projects-page .projects {
+      padding-left: 20px; }
+      #content #main .projects-page .projects .project {
+        margin-bottom: 40px; }
+        #content #main .projects-page .projects .project :last-child {
+          margin-bottom: 0; }
+        #content #main .projects-page .projects .project .project-icon {
+          width: 40px;
+          height: 40px;
+          float: left; }
+          #content #main .projects-page .projects .project .project-icon i {
+            font-size: 30px;
+            color: #008000; }
+        #content #main .projects-page .projects .project .project-desc {
+          padding-left: 40px; }
+          #content #main .projects-page .projects .project .project-desc p {
+            margin: 0 0 5px; }
+          #content #main .projects-page .projects .project .project-desc h3 {
+            color: #7d7d7d; }
+    #content #main .skills-page .skills {
+      margin-bottom: 30px; }
+      #content #main .skills-page .skills :last-child {
+        margin-bottom: 0; }
+      #content #main .skills-page .skills .skill {
+        text-align: center; }
+        #content #main .skills-page .skills .skill h3 {
+          color: #7d7d7d; }
+        #content #main .skills-page .skills .skill .level, #content #main .skills-page .skills .skill .progress, #content #main .skills-page .skills .skill .info {
+          height: 14px;
+          line-height: 14px; }
+        #content #main .skills-page .skills .skill .level {
+          background: #ededed;
+          position: relative;
+          font-size: 12px;
+          overflow: hidden;
+          font-weight: bold; }
+          #content #main .skills-page .skills .skill .level .progress {
+            background: #428bca; }
+          #content #main .skills-page .skills .skill .level .info {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%; }
+        #content #main .skills-page .skills .skill .level-1 {
+          width: 10%; }
+        #content #main .skills-page .skills .skill .level-2 {
+          width: 20%; }
+        #content #main .skills-page .skills .skill .level-3 {
+          width: 30%; }
+        #content #main .skills-page .skills .skill .level-4 {
+          width: 40%; }
+        #content #main .skills-page .skills .skill .level-5 {
+          width: 50%; }
+        #content #main .skills-page .skills .skill .level-6 {
+          width: 60%; }
+        #content #main .skills-page .skills .skill .level-7 {
+          width: 70%; }
+        #content #main .skills-page .skills .skill .level-8 {
+          width: 80%; }
+        #content #main .skills-page .skills .skill .level-9 {
+          width: 90%; }
+        #content #main .skills-page .skills .skill .level-10 {
+          width: 100%; }
+
+/*# sourceMappingURL=kstro.css.map */
