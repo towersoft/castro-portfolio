@@ -2,7 +2,7 @@
     'use strict';
 
     angular
-        .module('kstro', ["ngRoute"])
+        .module('kstro', ["ngRoute", "ngAnimate"])
         .config(kstrConfig);
 
     kstrConfig.$inject = ['$routeProvider'];
