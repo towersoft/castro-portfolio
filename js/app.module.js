@@ -1,7 +1,9 @@
 (function () {
     'use strict';
 
-    angular.module('kstro', ["ngRoute"]).config(kstrConfig);
+    angular
+        .module('kstro', ["ngRoute"])
+        .config(kstrConfig);
 
     kstrConfig.$inject = ['$routeProvider'];
 
@@ -13,9 +15,7 @@
             templateUrl: BASE_PUBLIC_URL + "/home/description.html"
         });
         $routeProvider.when("/projects", {
-            templateUrl: BASE_PUBLIC_URL + "/project/projects.html",
-            controller: "ProjectController",
-            controllerAs: "projectCtrl"
+            template: "<project-list></project-list>"
         });
         $routeProvider.when("/skills", {
             templateUrl: BASE_PUBLIC_URL + "/skill/skills.html",
