@@ -18,9 +18,7 @@
             template: "<project-list></project-list>"
         });
         $routeProvider.when("/skills", {
-            templateUrl: BASE_PUBLIC_URL + "/skill/skills.html",
-            controller: "SkillController",
-            controllerAs: "skillCtrl"
+            template: "<skill-list></skill-list>"
         });
 
         $routeProvider.otherwise({
